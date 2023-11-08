@@ -55,7 +55,7 @@ main {
     margin-top: -45px;
     width: 0.5em;
     height: 1em;
-    z-index: 4;
+    z-index: 7;
   }
   
   .hamburger div { 
@@ -238,7 +238,7 @@ main {
     #mz-gallery figure figcaption {
       font-size: 12pt;
       line-height: 18pt;
-      font-weight: 4px;
+      font-weight: 4;
       background-size: 30px 30px;
     }
   }
@@ -247,12 +247,7 @@ main {
     #mz-gallery::-webkit-scrollbar {
       height: 20px;
     }
-    #mz-gallery::-webkit-scrollbar-button:single-button:horizontal:decrement,
-    #mz-gallery::-webkit-scrollbar-button:single-button:horizontal:increment {
-      width: 80px;
-      height: 20px;
-      background-size: 15px;
-    }
+    
   }
   /* touch screen */
   
@@ -297,7 +292,7 @@ img.logo {
   height: 60px;
   width: auto;
   padding: 0%;
-  position: center;
+
   
 }
 
