@@ -65,7 +65,7 @@ main {
     border-radius: 3px;
     margin-top: 8px;
     transition: all 0.3s ease-in-out;
-   background-color:#312E28;
+   background-color: #6ecddd;
   }
   
   /**
@@ -75,7 +75,7 @@ main {
     position: fixed;
     width: 100%;
     height: 100%;
-    background-color: #000000;
+    background-color:#5B4A43;
     top: -100%; left: 0; right: 0; bottom: 0;
     overflow: hidden;
     transition: all 0.3s ease-in-out;
