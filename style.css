@@ -298,7 +298,7 @@ img.logo {
 
 /* spacing */
  html,body{
-    height:100%;
+    max-height:100%;
  }
 
  #intro{
@@ -306,26 +306,39 @@ img.logo {
  }
   /* keeps footer at bottom of page */
 #containersite{
-    min-height: 100%;
+  min-height: 100%;
 }
 #main{
-    overflow: auto;
+    overflow:hidden;
+  
+}
+   
     
-}
-
-@media (max-width: 375px){
-#footer{
-  padding-top: 1em;
-    font-size: small;
-    text-align: left;
-    color:#768471 ;
-    background-color:#4C4942 ;
-    position:relative;
-    width: 100%;
-    height:auto
-
-}
-}
+#footer {
+      height: 100px;
+      width: 100%;
+      background-color:#4C4942;
+      opacity: 1;
+      border-top: 1px solid #9a9696;
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      left: 0;
+  }
+  
+  @media only screen and (max-width : 1100px){
+    #footer {
+      height: 100px;
+      width: 100%;
+      background-color:#4C4942;
+      opacity: 1;
+      border-top: 1px solid #9a9696;
+      position: sticky;
+      right: 0;
+      bottom: 0;
+      left: 0;
+    }
+  }
 
 footer p{
   text-align:left;
