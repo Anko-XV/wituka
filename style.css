@@ -21,7 +21,9 @@ body {
     padding: 0;
     margin-bottom: 60px;
   }
- 
+ header{ 
+  background-color:#ffffff;
+ }
   h1 {
     background-color:#ffffff;
     text-align: center;
@@ -128,8 +130,9 @@ body {
 
 /* images */
 img {
-    height: auto;
-    width: 7em;
+    height: 10em;
+    width: auto;
+    padding-top: 3em;
 }
 
   /* keeps footer at bottom of page */
