@@ -5,9 +5,13 @@
 * { 
     margin:0px;
     padding:0px;
+    text-decoration: none;
 }
 
-
+a{
+  text-decoration:none;
+  color: #000000;
+}
 
 html {
     font-family:"pancettapro";
@@ -35,10 +39,7 @@ main {
     
     
   }
-  body{
-    z-index:-1;
-  }
-  
+ 
   #toggle {
     display: none;
   }
@@ -297,43 +298,34 @@ img.logo {
 }
 
 /* spacing */
- html,body{
-    max-height:100%;
- }
-
- #intro{
-  margin-bottom: 10px;
+.title{
+  padding-top: 1em;
+}
+ .title,#intro,#about,#materials{
+  margin-bottom:2em;
  }
   /* keeps footer at bottom of page */
 #containersite{
-  min-height: 100%;
+  min-height: auto;
+  
 }
 #main{
-    overflow:hidden;
-  
+  overflow:hidden;
+ 
+
+}
+main {
+  min-height:600px;
 }
    
-    
-#footer {
-      height: 100px;
-      width: 100%;
-      background-color:#4C4942;
-      opacity: 1;
-      border-top: 1px solid #9a9696;
-      position: absolute;
-      right: 0;
-      bottom: 0;
-      left: 0;
-  }
-  
+   
   @media only screen and (max-width : 1100px){
     #footer {
       height: 100px;
       width: 100%;
       background-color:#4C4942;
       opacity: 1;
-      border-top: 1px solid #9a9696;
-      position: sticky;
+      position:relative;
       right: 0;
       bottom: 0;
       left: 0;
